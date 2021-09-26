@@ -1,0 +1,496 @@
+
+header
+{
+width: auto;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+font-family: 'raleway';
+font-weight: bold;
+}
+@font-face 
+{
+    font-family: 'raleway';
+    src: url('Raleway-Bold.ttf');
+}
+.hebergement
+{
+    color: #0065FC;
+    margin-right: 40px;
+}
+.inscrire
+{
+    color:#0065FC;
+  
+}
+.activite
+{
+margin-right: 40px;
+color:black;
+}
+.heber-activ
+{ display:flex;
+
+}
+
+nav
+{
+    width: auto;
+    display:flex;
+    justify-content:space-around;
+    margin-right: 20px;
+    flex-wrap: wrap;
+}
+#ville
+{
+    width: auto; height: 30px; font-weight: bold; font-family: 'raleway';
+}
+#brechercher1
+{
+color:white; background-color:#0065FC; border-top-right-radius: 1rem; border-bottom-right-radius: 1rem;
+border: none;
+padding: 10px;
+font-family: 'raleway';
+}
+#brechercher2
+{
+width: 45px; height: 35px; color:white; background-color:#0065FC; border-radius: 20%; border: none;
+display: none;
+font-family: 'raleway';
+}
+/*.trouver
+{
+    padding-top: 50px;
+    flex-wrap: wrap;
+    font-family: 'raleway';
+}*/
+h3{
+    font-family: 'raleway';
+}
+.centre
+
+{
+    font-weight: normal;
+    font-size: 12px;
+   margin-top: -15px;
+   margin-bottom: 15px;
+   padding-top: 5px;
+}
+input
+{
+    border-style: none;
+    border:1px solid #F2F2F2;
+}
+#menu
+{
+    
+    display:flex;
+    flex-direction: column;
+    font-weight: bold;
+} 
+.nom, .nom1, .descr3
+{
+    font-family: 'raleway';
+    font-weight: bold;
+}
+.prix
+{
+    font-weight: normal;
+    font-size:11px;
+    color:gray;
+    font-family: 'raleway';
+}
+.fa-dog, .fa-heart, .fa-child, .fa-money-bill-wave
+{
+    background-color:#DEEBFF;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 15px; 
+    color: #0065FC;
+}
+.fa-map-marker-alt
+{
+    background-color:#F2F2F2;
+    border-top-left-radius: 25%;
+    border-bottom-left-radius: 25%;
+    padding: 8px;
+    height: 20px;
+    
+}
+.fa-info-circle
+{
+    color:#0065FC; 
+}
+.rechercher1
+{
+
+    justify-content: flex-start;
+    display: flex;  
+    flex-wrap: wrap;
+    font-family: 'raleway';
+}
+
+.filtres
+{
+height: auto;
+width: auto;
+display: flex;
+justify-content:flex-start;
+margin-top: 30px;
+padding-right: 5px;
+flex-wrap: wrap;
+font-family: 'raleway';
+}
+.eco-fami
+{
+    display: flex;
+}
+.debut
+{ 
+    margin-right: 50px;
+    margin-top: 10px;
+}    
+
+.economique, .familial, .romantique, .animaux
+{
+    border-width: 1px;
+    border-style:solid;
+    border-radius: 15px;
+    border-color:#DEEBFF;
+    border-left: none;
+    width: auto;
+    font-weight: bold;
+    margin-right: 30px;
+    padding-right: 30px; 
+    font-family: 'raleway';
+}
+.economique:hover, .familial:hover, .romantique:hover, .animaux:hover
+{
+    color:blue;
+    text-decoration:underline;
+}
+
+.touthebergement
+{ 
+    display: flex;
+    height: auto;
+    justify-content:space-around;
+    /*font-family: 'raleway';*/
+}
+.case
+{
+    width: 65%;
+    height: auto;
+    background-color: #F2F2F2;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: none;
+    border-radius: 15px;
+    padding: 3px;
+    font-family: 'raleway';
+    
+}
+.case1, .case2, .case3, .case4, .case5, .case6, .case7, .case8, .case9
+{
+    background-color:white;
+    padding: 5px;
+    margin-bottom: 50px;
+    margin-top: -15px;
+    padding-bottom: 1px;
+    border-radius: 15px;
+}
+.fa-star
+{
+    font-size:10px;
+    color:#0065FC;
+}
+.fa-star.gold
+{
+    font-size:10px;
+    color:#F2F2F2;
+} */
+
+/*.disc
+{
+    padding: 10px;
+}*/
+/*strong, .fa-euro-sign
+{
+    color:black;
+
+}*/
+.fa-euro-sign
+{
+    margin-left:-2px;
+    
+}
+.hebergement1
+{
+    width: 100%;
+    height:auto;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+.afficher
+{
+    width: 100%;
+    height: 2%;
+    margin-top: -30px;
+    margin-left: 15px;
+    font-weight: bold;
+    font-family: 'raleway';
+    font-size:13px;
+}
+.contain
+{
+    object-fit:cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px; 
+
+}
+.plus-de-logement
+{
+    flex-wrap: wrap;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    color: gray;
+    font-family : 'Raleway';
+    font-size: 12px;
+  
+   
+}
+/*.populaire
+{
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+   
+}*/
+.fa-chart-line
+{
+    margin-left: 180px;
+}
+
+.case7, .case8, .case9
+{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-family: 'raleway';
+}
+
+.populaire2
+{
+    width: 27%;
+   background-color: #F2F2F2;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-between;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 2px;
+    font-family: 'raleway';
+}
+
+.image2 > img:first-child
+{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-right: 20px;
+    
+}  
+.nom1
+{
+margin-top: 10px;
+margin-bottom: 35px;
+font-size:14px;
+font-family: 'raleway';
+}
+.nom
+{
+    font-size:14px;
+    font-family: 'raleway';
+}
+disc1
+{
+    padding:10px;
+}
+
+.acti
+{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    font-family: 'raleway';
+}
+.ph2
+{
+    flex-direction: column;
+
+}
+.image > img:first-child
+{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.descr3
+{
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   border:1px solid ;
+    border-color: #F2F2F2;
+    border-top: none;
+   padding: 10px;
+    font-size: 12px;
+    width: auto;
+    font-family: 'raleway';
+    
+}
+.photo2, .photo5
+{
+    margin-bottom: 20px;
+}
+    
+footer
+{
+    width: 100%;
+    height: auto;
+    background-color:  #F2F2F2;
+    justify-content:flex-start;
+    display: flex;
+    padding-top: 20px;
+    margin-top: 40px;
+    border-style: none;
+    font-family: 'raleway';
+    
+}
+
+p
+    {
+        font-weight: bold;
+    }
+footer > div
+{
+margin-right: 250px;
+margin-left:20px;
+}
+
+.fonctionnement, .condition, .donnees, .charte, .soumettre, .centre2, .contacter
+{
+    padding: 5px;
+    font-size: 12px;
+    font-family: serif;
+}
+
+
+.image3 , img:first-child
+{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px; 
+}
+@media screen and (max-width: 640px) 
+ {
+    .rechercher1, nav, .plus-de-logement, .filtres, .hebergement, .acti, footer, .touthebergement
+        {
+       
+         flex-direction: column;        
+       
+        }
+    
+    .populaire2
+        {
+        position: relative ;
+        width: 80%;
+        order: -8;
+        padding: 2px;
+        margin-bottom: 5px;
+    
+        }
+    .rechercher1
+        {
+     position: relative; left: 0; top: 20px; width: 50%; height: 35px;
+        }
+    #brechercher2
+        {
+        display: inline-block;
+        }
+    #brechercher1
+        {
+        display:none;
+        }
+    .inscrire
+        {
+        order: 1;
+        padding: 5px;
+        }
+    .hebergement
+        {
+       margin-right: 100px;
+        }
+    header
+        {
+        flex-direction: row;
+        margin-bottom: 50px;
+        }
+    nav
+        {
+        display: flex;
+        flex-direction:column-reverse;
+        }
+    .heber-activ
+        {
+        display: flex;
+        width: 100%;
+        position:absolute; top: 50px; left: 15px; width: 80%; height: auto; 
+        margin-top: 15px;
+        justify-content: space-between;
+        }
+
+    .nom1
+        {
+        margin-bottom: 20px;
+        }
+    .case7, .case8, .case9
+        {
+        margin-bottom: 30px;
+        }
+    .case
+        {
+         background-color: white;
+        }
+    .fa-map-marker-alt
+        {
+        width: auto;    
+        }
+    .romantique, .animaux
+        {
+        width: 50%;
+        margin-bottom: 5px;
+        }
+    .eco-fami
+        {
+        margin-bottom: 5px;
+        }
+    .descr3
+        {
+        width: 59%;
+        }
+   .contain
+        {
+           
+            height: 150px;
+            
+        }
+    }
+       
